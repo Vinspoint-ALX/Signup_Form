@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-container{
+    max-width: 672px;
+    margin: 50px auto;
+    /* background-color: aliceblue; */
+    padding-left: 10px;
+    box-shadow: 0 0 5px #333;
+
+}
+
+.logo{
+    display: flex;
+    margin: 50px 0;
+    padding-top: 40px;
+}
+
+img{
+    width: 100px;
+    margin-right: 10px;
+}
+
+/* .display{
+    width: 430px;
+
+} */
+
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+     
+}
+
+p{
+    line-height: 1.4;
+}
+
+h2{
+    padding-bottom: 10px;
+}
+
+.first-infor{
+    margin: 0 15px 15px 0;
+    width: 203px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #333;
+}
+
+.month-infor{
+    width: 317px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    margin: 0 10px 10px 0;
+}
+
+.address{
+    margin-top: 20px;
+}
+
+.address-infor{
+   width: 650px; 
+   padding: 5px;
+   border-radius: 4px;
+   border: 1px solid #333;
+   margin: 0 10px 10px 0;
+}
+
+.add-infor{
+    width: 318px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #333;
+    margin: 0 10px 10px 0;
+}
+
+.contact{
+    margin-top: 20px;
+}
+
+.courses{
+    margin-top: 20px;
+}
+
+.fa-star{
+    color: red;
+    font-size: 8px;
+    transform: translateY(-10px);
+}
+
+.new{
+    box-shadow: 0 0 3px #333;
+    margin: 0 13px 20px 0;
+    padding: 10px;
+}
+
+.plus{
+    align-items: center;
+    /* border: 1px solid #333; */
+    border-radius: 3px;
+    width: 150px;
+    padding: 5px 3px 5px 10px;
+    margin-bottom: 10px;
+    background-color: #EEEEEE;
+}
+
+.fa-plus{
+    font-size: 12px;
+    margin: 5px 5px ;
+}
+
+.list{
+  display: flex; 
+}
+
+.empty{
+    width: 100px;
+    background-color: #fff;
+    border: 1px solid #9b9b9b;
+    padding-right: 20px;
+}
+
+.fa-filter{
+    font-size: 10px; 
+    margin-left: 50px; 
+}
+
+.start{
+    border: 1px solid #9b9b9b;
+    width: 300px;
+    padding: 5px;
+}
+
+
+
+.textarea{
+    width: 650px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 650px;
+    margin-bottom: 15px;
+    padding: 6px;
+    background-color: #30A2FF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+/* preview page css */
+
+.container-preview{
+    margin: 50px auto;
+    box-shadow: 0 0 10px #333;
+    width: 500px;
+    border-radius: 5px;
+    padding: 20px;
+
+}
+
+.container-preview h1{
+    color: #30A2FF;
+    text-align: center;
+}
+
+.container-preview p{
+    padding-bottom: 30px;
+}
+
+.container-preview a{
+    margin-left: 60px;
+    display: block;
+    color: #30A2FF;
+    text-decoration: none;
+    align-items: center;
+    font-size: x-large;
+}
+
+
+
+
+
+
+

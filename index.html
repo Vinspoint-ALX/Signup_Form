@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <title>Document</title>
+<body>
+    <div class="form-container">
+        <div class="logo">
+            <img src="images/logo.jpg" alt="logo" class="images">
+            <div class="display">
+                <h1>Student Registration Form</h1>
+                <p>Fill out the form to apply for the training  courses. You can consider your <br> application   accepted after you receive a confirmation email.  </p>
+            </div>
+        </div>
+
+        <form action="previewpage.html" method="GET">
+            <div class="student-infor">
+                <h2>Student Information</h2>
+                <input type="text" name="firstName" id="firstName" class="first-infor" placeholder="First Name" required>
+                <input type="text" name="middleName" id="middleName" class="first-infor" placeholder="Middle Name" required>
+                <input type="text" name="lastName" id="lastName" class="first-infor" placeholder="last Name" required>
+                <input type="date" name="month" id="month" class="month-infor" placeholder="Date of Birth" required>
+                <input type="text" name="student-id" id="student-id" class="month-infor" placeholder="Student ID" required>
+            </div>
+
+            <div class="address">
+                <h2>Address</h2>
+                <input type="text" name="street-address" id="street-address" class="address-infor" placeholder="Street Address" required>
+                <input type="text" name="city" id="city" class="add-infor" placeholder="City" required>
+                <input type="text" name="state-province" id="state-province" class="add-infor" placeholder="State / Province" required>
+                <input type="country" name="country" id="country" class="add-infor" placeholder="Country" required>
+                <input type="number" name="zip-code" id="zip-code" class="add-infor" placeholder="Zip Code" required>
+            </div>
+
+            <div class="contact">
+                <h2>Contact Information</h2>
+                <input type="email" name="email" id="email" class="add-infor" placeholder="E-mail" required>
+                <input type="tel" name="phone" id="phone" class="add-infor" placeholder="Telephone" required>
+            </div>
+
+            <div class="courses">
+                <h2>Courses <i  class="fa fa-star"></i></h2>
+                <div class="new">
+                    <div class="plus">
+                        <p><i class="fa fa-plus"></i> Add new record</p>
+                    </div>
+                    <div class="list" >
+                        <!-- <div class="empty"> </div> -->
+                        <div class="start">course <i class="fa fa-filter"></i> </div>
+                        <div class="start">level <i class="fa fa-filter"></i></div>
+                        <div class="start">language <i class="fa fa-filter"></i></div>
+                        <div class="start">Start Date <i class="fa fa-filter"></i></div>
+                        <div class="empty"></div>
+                    </div >      
+                </div>  
+            </div>
+            <textarea name="textarea" id="textarea" class="textarea" placeholder="Comments"></textarea>
+            <button>SEND REQUEST</button>
+        </form>
+    </div>
+</body>
+</html>
